@@ -26,19 +26,19 @@ class DatabaseSeeder extends Seeder
         Product::create([
             'name' => 'Samsung Galaxy S24',
             'description' => 'Flagship smartphone with high resolution dynamic AMOLED display',
-            'price' => 799.99,
+            'price' => 700000.00,
         ]);
 
         Product::create([
             'name' => 'MacBook Air M2',
             'description' => 'Lightweight Apple laptop with M2 chip and long battery life',
-            'price' => 1099.00,
+            'price' => 5000000.00,
         ]);
 
         Product::create([
             'name' => 'Sony WH-1000XM5',
             'description' => 'Industry-leading noise canceling wireless headphones',
-            'price' => 349.50,
+            'price' => 950000.00,
         ]);
     }
 }
